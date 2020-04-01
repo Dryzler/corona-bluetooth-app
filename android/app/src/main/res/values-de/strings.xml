@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Corona Bluetooth App</string>
+    <string name="textViewLabelReportedInfections">Anzahl an Infektionen denen du begegnet bist:</string>
+    <string name="textViewLabelSavedEncounters">Anzahl an gespeicherten Verbindungen:</string>
+    <string name="buttonReportInfection">Eigene Infektion melden</string>
+    <string name="textViewLabelHasReportedInfection">Du hast deine eigene Infektion gemeldet.</string>
+</resources>
