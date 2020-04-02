@@ -15,6 +15,7 @@ We are looking for a partner who programs the ios app.
 
 # Contact
 If you want to be part of our project or have questions:
+
 https://discord.gg/n4MbpS
 https://coronabluetoothapp.wordpress.com/contact/
 
