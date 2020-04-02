@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences pref = getSharedPreferences(MainActivity.NAME_PREFERENCES, 0);
         boolean hasReportedInfection = pref.getBoolean("hasReportedInfection", false);
         if (hasReportedInfection) {
-            Button buttonReportInfection = (Button)MainActivity.this.findViewById(R.id.buttonReportInfection);
+            Button buttonReportInfection = (Button) MainActivity.this.findViewById(R.id.buttonReportInfection);
             buttonReportInfection.setVisibility(View.INVISIBLE);
 
-            TextView textViewLabelHasReportedInfection = (TextView)MainActivity.this.findViewById(R.id.textViewLabelHasReportedInfection);
+            TextView textViewLabelHasReportedInfection = (TextView) MainActivity.this.findViewById(R.id.textViewLabelHasReportedInfection);
             textViewLabelHasReportedInfection.setVisibility(View.VISIBLE);
         }
 
@@ -115,8 +115,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(enableBT, 1);
             }
         }
-
-
     }
 
     public void clickButtonReportInfection(final View view) {
