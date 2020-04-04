@@ -1,3 +1,6 @@
+# What is this?
+- This a corona bluetooth solution, open source and for free, made in Switzerland.
+
 # How to setup
 
 ## Android App / Studio
